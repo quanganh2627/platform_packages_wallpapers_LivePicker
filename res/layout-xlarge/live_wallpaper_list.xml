@@ -24,11 +24,11 @@
     android:gravity="center">
     <GridView
         android:id="@android:id/list"
-        android:layout_width="702dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:numColumns="3"
-        android:stretchMode="none"
+        android:numColumns="4"
+        android:stretchMode="spacingWidthUniform"
         android:columnWidth="@dimen/live_wallpaper_grid_item_width"
         android:verticalSpacing="0dp"
         android:horizontalSpacing="0dp"
